@@ -1,0 +1,193 @@
+@media screen and (max-width: 1199px) {
+  .hero {
+    background: #2f303a;
+    padding-bottom: 118px;
+    padding-top: 118px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    background: #2f303a;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .hero.overlay {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.5),
+        rgba(47, 48, 58, 0.3)
+      ),
+      url('../images/mobile/header-mob.jpg');
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(47, 48, 58, 0.5)),
+        to(rgba(47, 48, 58, 0.3))
+      ),
+      url('../images/mobile/header-mob.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 320px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2),
+  screen and (min-width: 320px) and (min-resolution: 192dpi),
+  screen and (min-width: 320px) and (min-resolution: 2dppx) {
+  .hero.overlay {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.5),
+        rgba(47, 48, 58, 0.3)
+      ),
+      url('../images/mobile/header-mob@2x.jpg');
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(47, 48, 58, 0.5)),
+        to(rgba(47, 48, 58, 0.3))
+      ),
+      url('../images/mobile/header-mob@2x.jpg');
+  }
+}
+
+@media (min-width: 768px) {
+  .hero.overlay {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.5),
+        rgba(47, 48, 58, 0.3)
+      ),
+      url('../images/tablet/header-tabl.jpg');
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(47, 48, 58, 0.5)),
+        to(rgba(47, 48, 58, 0.3))
+      ),
+      url('../images/tablet/header-tabl.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 768px) and (min-device-pixel-ratio: 2),
+  (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 768px) and (min-resolution: 192dpi),
+  (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero.overlay {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.5),
+        rgba(47, 48, 58, 0.3)
+      ),
+      url('../images/tablet/header-tabl@2x.jpg');
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(47, 48, 58, 0.5)),
+        to(rgba(47, 48, 58, 0.3))
+      ),
+      url('../images/tablet/header-tabl@2x.jpg');
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero.overlay {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.5),
+        rgba(47, 48, 58, 0.3)
+      ),
+      url('../images/desktop/desktop-header.jpg');
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(47, 48, 58, 0.5)),
+        to(rgba(47, 48, 58, 0.3))
+      ),
+      url('../images/desktop/desktop-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) and (min-device-pixel-ratio: 2),
+  (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2),
+  (min-width: 1200px) and (min-resolution: 192dpi),
+  (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero.overlay {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.5),
+        rgba(47, 48, 58, 0.3)
+      ),
+      url('../images/desktop/desktop-header@2x.jpg');
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(rgba(47, 48, 58, 0.5)),
+        to(rgba(47, 48, 58, 0.3))
+      ),
+      url('../images/desktop/desktop-header@2x.jpg');
+  }
+}
+
+@media (min-width: 320px) {
+  .hero__title {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    line-height: 1.62;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero__title {
+    color: #ffffff;
+    display: block;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    line-height: 1.61;
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    color: #ffffff;
+    display: block;
+    font-size: 44px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    line-height: 1.36;
+    margin-bottom: 30px;
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

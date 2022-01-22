@@ -1,0 +1,140 @@
+.site-nav__link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.site-nav {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 88px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-left: 93px;
+  }
+}
+
+.site-nav__item {
+  @media screen and (min-width: 768px) {
+    margin-right: 50px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 50px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.site-nav__link--active {
+  color: var(--accent-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 0;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 4px;
+      background-color: var(--accent-color);
+      border-radius: 2px;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 0;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 4px;
+      background-color: var(--accent-color);
+      border-radius: 2px;
+    }
+  }
+}
+
+.current-borber {
+  @media screen and (min-width: 768px) {
+    position: relative;
+  }
+
+  @media screen and (min-width: 1200px) {
+    position: relative;
+  }
+}
+
+.site-nav__link {
+  transition: color 250ms var(--times-functional);
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.nav {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+  }
+}
+
+.main-nav {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
+.header-border {
+  border-bottom: 1px solid #ececec;
+}

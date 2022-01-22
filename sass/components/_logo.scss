@@ -1,0 +1,64 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+  }
+
+  @media screen and (max-width: 1199px) {
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
+}
+
+.nav__logo-web {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+  }
+}
+
+.nav__logo-studio {
+  color: var(--logo-web);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+  }
+}
+
+.logo-web-footer {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-footer__nav__logo-studio {
+  color: var(--primary-white-color);
+  font-family: Raleway;
+  font-style: 700;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
